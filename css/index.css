@@ -1,0 +1,155 @@
+body{
+    overflow-x: hidden;
+}
+nav{
+    padding:50px 0px 0px 60px;
+    display: flex;
+    flex-direction: row;
+}
+[alt="logo"]{
+    margin-bottom:20%
+}
+.nav-items{
+    display:flex;
+}
+.nav-item{
+    font-family: Poppins;
+    font-weight:bolder;
+}
+.nav-item.active-item {
+    color:red;
+}
+.nav-item:first-of-type{
+    margin-left: 200px;
+    
+}
+.nav-item:nth-child(n+1){
+    margin-right:100px;
+}
+[alt="actions"]{
+    position: absolute;
+    margin-left: 65%;
+   
+}
+.left-section h3{
+    font-family: Poppins;
+    font-weight:900;
+    position: absolute;
+    top:180px;
+    left:80px;
+    font-size: 30px;
+}
+[alt="circles"]{
+    position:absolute;
+    bottom:0px;
+    left:195px;
+}
+.left-section h1{
+    position:absolute;
+    top:250px;
+    left:80px;
+    font-family: Poppins;
+    font-weight:bolder;
+    font-size: 50px;
+    
+}
+
+[alt="plus"]{  
+    background-color:#fa680e;
+    border-radius: 100%;
+}
+.sub-headline{
+    position:relative;
+    left:120px;
+    font-family: Poppins;
+    font-weight:bolder;
+    font-size: 20px;
+    
+}
+.text{
+    position:relative;    
+    left:68px;
+    font-family: Poppins;
+    font-weight:bolder;
+    font-size: 12.5px;
+}
+.action-btn{
+    margin-left:5%;
+    font-family: Poppins;
+    font-weight:bolder;
+    padding:10px 35px 10px 35px;
+    color:white;
+    background-color:#fa680e;
+    border-radius: 20px;
+    border:none;
+}
+[alt="headphone"]{
+    position:sticky;
+    margin-left: 50%;
+    margin-top:-62%;
+    z-index:-1;
+}
+.discount{
+    font-family: Poppins;
+    font-weight:bolder;
+    position: absolute;
+    margin-left:50%;
+    margin-top:-17%;
+    
+}
+.discount-content h4{
+    font-family: Poppins;
+    font-weight:bolder;
+    position: absolute;
+    margin-left:54%;
+    margin-top:-14%;
+    color:white;
+    font-size:20px;
+}
+.discount-content h1{
+    position:relative;
+    left:780px;
+    top: -170px;
+    font-family: Poppins;
+    font-weight:bolder;
+    color:white;
+    font-size:40px;
+}
+
+div.dot.yellow-dot{
+    position: absolute;
+    background: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left:65%;
+}
+div.dot.tomato-dot{
+    position: absolute;
+    background: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left:70%;
+    margin-top:-1px;
+}
+div.dot.black-dot{
+    position: absolute;
+    background: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left:75%;
+    margin-top:-1px;
+}
+.action-btn1{
+    font-family: Poppins;
+    font-weight:bolder;
+    margin-top:3%;
+    margin-left:66%;
+    padding:10px 35px 10px 35px;
+    color:white;
+    background-color:#fa680e;
+    border-radius: 20px;
+    border:none;
+}
